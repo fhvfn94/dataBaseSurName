@@ -5,5 +5,8 @@ import java.util.List;
 public interface ServiceInt {
 //    Я создал интерфейс
 
-    List<People> getListSurname(List<People> surname);
+    //    Я создал интерфейс и класс ServiceSurname
+    //    сделал публичный метод который
+    //    возвращает строковый лист фамилий, которые начинаются на J
+    List<String> getListSurnameStartingWithJ(List<People> surnameList);
 }
