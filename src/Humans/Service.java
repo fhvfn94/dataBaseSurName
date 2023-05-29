@@ -12,7 +12,7 @@ public class Service implements ServiceInt {
                         && it.getCity() == "Moscow"
                         && it.getName() != null
                 )
-                .map(it -> it.getName())
+                .map(it -> it.getName() + " " + it.getSurname())
                 .collect(Collectors.toList());
     }
 

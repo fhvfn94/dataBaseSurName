@@ -11,8 +11,8 @@ public class Test {
                 new People("John")
         );
 
-        ServiceSurname serviceSurname = new ServiceSurname();
-        List<String> surnamesStartingWithJ = serviceSurname.getListSurnameStartingWithJ(people);
+        /*ServiceSurname serviceSurname = new ServiceSurname();*/
+        List<String> surnamesStartingWithJ = ServiceSurname.getListSurnameStartingWithJ(people);
 
         System.out.println(surnamesStartingWithJ);
     }

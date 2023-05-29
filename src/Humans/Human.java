@@ -4,11 +4,13 @@ package Humans;
 public class Human {
     private Integer age;
     private String name;
+    private String surname;
     private String city;
 
-    public Human(Integer age, String name, String city) {
+    public Human(Integer age, String name, String city, String surname) {
         this.age = age;
         this.name = name;
+        this.surname = surname;
         this.city = city;
     }
 
@@ -22,5 +24,9 @@ public class Human {
 
     public String getCity() {
         return city;
+    }
+
+    public String getSurname() {
+        return surname;
     }
 }
